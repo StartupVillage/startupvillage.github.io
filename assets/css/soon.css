@@ -42,6 +42,10 @@ a:hover, a:focus {
        -moz-transition-duration: 0.4s;
             transition-duration: 0.4s;
 }
+
+img {
+    max-width: 100%;
+}
 /******************************************************************************************************************************
 HEADER
 *******************************************************************************************************************************/
@@ -108,9 +112,6 @@ RESPONSIVE
     #slider{display: none;}
     .btn-subscribe{border-radius: 20px;}
     #contact-informations{margin-top: 24px;}
-    body {
-	    background-color: #2c3e50;
-    }
 }
 @media only screen and (max-width: 740px) {
     .timer_box{

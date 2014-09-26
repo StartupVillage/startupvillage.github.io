@@ -631,3 +631,8 @@ PLUGINS
             transition-duration: 0.4s;
 }
 .tp-bullets.simplebullets.round .bullet.last {   margin-right:3px;}
+
+.address {
+    color: #555;
+    text-align: center;
+}
